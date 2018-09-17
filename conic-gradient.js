@@ -297,7 +297,7 @@ if (self.StyleFix) {
 		function supportedBackgroundImage(checkStyle) {
 			var dummy = document.createElement("p");
 			dummy.style.backgroundImage = checkStyle;
-			dummy.style.backgroundImage = PrefixFree.prefix + checkStyle;
+			// dummy.style.backgroundImage = PrefixFree.prefix + checkStyle;
 			return !!dummy.style.backgroundImage;
 		}
 
